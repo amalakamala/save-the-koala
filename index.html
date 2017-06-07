@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>SAVE THE KOALA</title>
+	<link rel="shortcut icon" type="image/jpg" href="img/favicon.ico">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">	
+	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 	<header>
@@ -48,7 +50,7 @@
 		<div class="section-foundation container">
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-					<img src="img/tres.jpg" alt="tres" class="img-responsive">
+					<img src="img/tres.jpg" alt="tres" class="img-responsive el-hide">
 				</div>
 				<div class="text-section-foundation col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					<h6>FOUNDATION INFORMATION</h6>
@@ -56,11 +58,11 @@
 					<p>Koalas are well-known as an icon of Australia and many people who visit Australia as tourists hope to see and hold a koala. But it's less well known that koalas in the wild are facing unprecedented pressure as their trees are cleared, existing habitat becomes more vulnerable and isolated and more roads bisect their territories resulting in more koalas being run over.</p>
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-							<h3>The Australian Koala Foundation</h3>
+							<h4>The Australian Koala Foundation</h4>
 							<p>AKF is the organisation dedicated to ‘saving the koala’. The AKF’s mission is to achieve the long-term conservation of koalas and their habitat and to diminish current and future threats to koalas in the wild. <a href="#">See more</a></p>
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-							<h3>AKF Vision</h3>
+							<h4>AKF Vision</h4>
 							<p>The AKF’s vision includes a National Koala Act to provide solutions for managing koalas across all land tenures and setting a national standard for mapping koala habitat across its range so that conservation efforts on the ground can be maximised.<a href="#">See more</a></p>
 						</div>
 					</div>
@@ -142,7 +144,7 @@
 					<p>1 T-shirt</p><hr>
 					<p>1 visits per month</p><hr>
 					<p><b>Public</b>API access</p>
-					<button type="button" class="btn btn-see-more">DONATE</button>
+					<button type="button" class="btn btn-donate">DONATE</button>
 				</div>	
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-donate-save">
 					<h6>GROUPS</h6>
@@ -151,7 +153,7 @@
 					<p>2 T-shirt</p><hr>
 					<p>2 visits per month</p><hr>
 					<p><b>Public</b>API access</p>
-					<button type="button" class="btn btn-see-more">DONATE</button>
+					<button type="button" class="btn btn-donate">DONATE</button>
 				</div>	
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-donate-save">
 					<h6>COMPANIES</h6>
@@ -160,42 +162,48 @@
 					<p>3 T-shirt</p><hr>
 					<p>3 visits per month</p><hr>
 					<p><b>Public</b>API access</p>
-					<button type="button" class="btn btn-see-more">DONATE</button>
+					<button type="button" class="btn btn-donate">DONATE</button>
 				</div>					
 			</div>
 		</div>
 	</section>
 	<!-- SECTION FOOTER -->
-	<footer>
+	<footer class="section-footer">
 		<div class="container">
 			<div class="row footer"></div>
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-donate-save">
-					<h4>ABOUT</h4>
-					<p>The Australian Koala Foundation receives no funding from any government so they rely on people like you to help raise funds for their important work in saving koalas for future generations to enjoy. If you’d like to learn more, contact us anytime at akf@savethekoala.com.</p>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-footer">
+					<h6>ABOUT</h6>
+					<p>The Australian Koala Foundation receives no funding from any government so they rely on people like you to help raise funds for their important work in saving koalas for future generations to enjoy. If you’d like to learn more, contact us anytime at  
+					<a href="#">akf@savethekoala.com</a>.</p>
 				</div>	
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-donate-save">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 link-footer">
 					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-							<a href="#">Koalas</a>
-							<a href="#">Eucaliptus</a>
-							<a href="#">Donate</a>
-							<a href="#">Gallery</a>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							<ul>
+								<li><a href="#">Koalas</a></li>
+								<li><a href="#">Eucaliptus</a></li>
+								<li><a href="#">Donate</a></li>
+								<li><a href="#">Gallery</a></li>
+							</ul>	
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-							<a href="#">Koalas</a>
-							<a href="#">Eucaliptus</a>
-							<a href="#">Donate</a>
-							<a href="#">Gallery</a>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							<ul>
+								<li><a href="#">Koalas</a></li>
+								<li><a href="#">Eucaliptus</a></li>
+								<li><a href="#">Donate</a></li>
+								<li><a href="#">Gallery</a></li>
+							</ul>	
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-							<a href="#">Koalas</a>
-							<a href="#">Eucaliptus</a>
-							<a href="#">Donate</a>
-							<a href="#">Gallery</a>
+						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+							<ul>
+								<li><a href="#">Koalas</a></li>
+								<li><a href="#">Eucaliptus</a></li>
+								<li><a href="#">Donate</a></li>
+								<li><a href="#">Gallery</a></li>
+							</ul>	
 						</div>
 					</div>
 				</div>	
-			
 		</div>
 	</footer>
 

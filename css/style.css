@@ -43,7 +43,8 @@ header{
 	font-size: 2em;	
 }
 
-.btn-see-more{
+.btn-see-more,
+.btn-donate{
     color: #fff;
     background-color: #41521F;
     border-color: #41521F;
@@ -61,13 +62,17 @@ header{
 	padding-bottom: 5%;
 }
 
+.text-section-foundation{
+	font-size: 1em;
+}
 
-.text-section-foundation h6{
+.text-section-foundation h4{
+	font-size: 1em;
 	color: #7F7F7F;
 }
 
 .text-section-foundation h2,
-.text-section-foundation h3,
+.text-section-foundation h4,
 .text-section-foundation p a{
 	color: #948D55;
 }
@@ -131,12 +136,15 @@ header{
 
 .can-help-texto i{
 	color: #978F56;
-	padding-bottom: 2%;
+	padding-bottom: 3%;
+	padding-right: 10px;
+	padding-left: 10px;	
 }
 
 .text-can-help{
 	padding-bottom: 10%;
 	padding-left: 1%;
+	font-size: 1.1em;	
 }
 
 /*------------------ SECTION DONATE ------------------*/
@@ -144,7 +152,7 @@ header{
 
 .section-donate{
 	background-color: #948D55;
-	padding: 4% 0;
+	padding: 50px 0;
 }
 
 .text-donate{
@@ -176,9 +184,31 @@ sub {
 }
 
 
+/*------------------ FOOTER------------------*/
+
+.section-footer{
+	background-color: #324117;
+	padding: 50px 0;
+}
+
+.text-footer{
+	color: white;
+}
+
+.text-footer h6,
+.text-footer a{
+	color: #948D55;
+	text-decoration: none;
+}
 
 
+.link-footer li{
+	list-style:none;
+}
 
+.link-footer a{
+	color: #948D55;
+}
 
 
 
