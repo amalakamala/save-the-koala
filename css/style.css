@@ -74,7 +74,7 @@ header{
 
 
 
-/*------------------ SECTION ------------------*/
+/*------------------ SECTION EASY HELP ------------------*/
 
 .easy-help{
 	margin: 4% 0;
@@ -96,6 +96,89 @@ header{
 .img-cosita{
 	border: 7px solid white;
 }
+
+
+/*------------------ SECTION NO TREE ------------------*/
+.section-no-tree{
+	background-image: url(../img/all.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.text-no-tree{
+	color: #FFF;
+	padding-top: 5%;
+	text-shadow: 1px 1px 1px #000;	
+}
+
+/*------------------ SECTION CAN HELP ------------------*/
+
+.can-help{
+	padding-top: 5%;
+	text-align: center;
+}
+
+.can-help-texto{
+	padding-bottom: 3%;
+	text-align: center;	
+}
+
+.can-help h4{
+	color: #978F56;
+}
+
+.can-help-texto i{
+	color: #978F56;
+	padding-bottom: 2%;
+}
+
+.text-can-help{
+	padding-bottom: 10%;
+	padding-left: 1%;
+}
+
+/*------------------ SECTION DONATE ------------------*/
+
+
+.section-donate{
+	background-color: #948D55;
+	padding: 4% 0;
+}
+
+.text-donate{
+	text-align: center;
+	color: #41521F; 
+	font-size: 2em;
+	padding-bottom: 2%;
+}
+
+.donate-dolar{
+	padding: 0 5%;
+	text-align: center;
+}
+
+.pay{
+	color: white;
+	font-size: 6em;
+	font-weight: 400;
+}
+
+sup {
+	font-size: 0.2em;
+    top: -3em;
+}
+
+sub {
+    bottom: -.25em;
+	font-size: 0.2em;  
+}
+
+
+
+
+
 
 
 
